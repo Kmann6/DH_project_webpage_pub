@@ -11,6 +11,10 @@ body {
   background: #f7f4ed;
 }
 
+    h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 header, main, footer {
   max-width: 860px;
   margin: 0 auto;
@@ -25,6 +29,10 @@ header {
 header h1 {
   font-size: 1.6rem;
   margin-bottom: 0.4rem;
+}
+
+nav {
+    text-align: center;
 }
 
 nav {
