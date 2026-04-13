@@ -40,7 +40,7 @@ A Jupyter Notebook was used to clean the dataset. Data was not substainally alte
 
 **Additional Documentation**: These pages were built in VS Code using Github Pages. The files associated with the dataset were cleaned using Jupyter notebook. All files are stored in VS Code, on GitHub at https://github.com/Kmann6/DH_project_webpage_pub, and locally by the owner. 
 
-**AI Use Notice**: The author of these pages used Chat GPT Agent 4.1 in writing and correctinig code for the dataset and image display pages. Addiitonal AI usage was critical in error troubleshooting.
+**AI Use Notice**: The author of these pages used Chat GPT Agent 4.1 in writing and correctinig code for the dataset and image display pages. Addiitonal AI usage was critical in error troubleshooting and mobile display alterations.
 
 All project information, overview, research questions,  significance, and initial product descriptions were written by the author.
 
