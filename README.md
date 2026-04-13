@@ -1,7 +1,23 @@
 # Website Documentation
 
-**Spreadsheet CSV file**
+## Index
+**This is the landing page for the Website**
+The landing page explains the purpose of the project site with a short overview, succinct research question, and significance. 
+
+## Planning Page
+**The Planning Page** for the website displays the sketches for the website with the following descriptive captions:
+Image 1: Webpage landing page showing the title header, five navigation links, and the paragraph headings Overview, Research Questions, Significance, and Course affiliation notes at bottom.
+Image 2: Webpage findings page with title and database box.
+Image 3: Webpage planning page with title and images.
+Image 4: Webpage add your story page with title and submission form.
+Image 5: Webpage sustainability page with title and images.
+
+These images are jpeg files that exist in the repository, on a local drive, and in private cloud storage. Original hardcopy sketches are filed by owner.
+
+## Spreadsheet CSV file, Displayed Dataset, and Submission Guidelines**
 The csv file represents information about historical themes in popular culture items. column heads are product_name, manufacturer, product_type, first_year_sold, historical_type, type_name, packaging_text, and packaging_description.
+
+The categories were chosen to record copyright and production information about the product reported and the histroical narratives. This information allows some categorization and some freeform that can be analyzed for common themes. See definitions.
 
 ## Definitions
 **product_name**: records the title of the product item.
@@ -12,3 +28,14 @@ The csv file represents information about historical themes in popular culture i
 **type_name**: is a freeform value that records the specific language of the historical_type. For example, one type in the spreadsheet is "figure" and the type name is "annieoakley".
 **packaging_text**: is a freeform value and records the text on the packaging exactly as it appears. Case and punctuation will be removed during cleaning. 
 **packaging_description**: is a freeform value that describes the colors and images that appear on the packaging with basic descriptive language. This category is intended to retain a general idea of the imagery and is not intended to accurately record exact dimensions or colors. 
+
+## Add Your Story Page
+**This page is not active**
+
+**Additional Documentation**: These pages were built in VS Code using Github Pages. The files associated with the dataset were cleaned using Jupyter notebook. All files are stored in VS Code, on GitHub at https://github.com/Kmann6/DH_project_webpage_pub, and locally by the owner. 
+
+**AI Use Notice**: The author of these pages used Chat GPT Agent 4.1 in writing and correctinig code for the dataset and image display pages. Addiitonal AI usage was critical in error troubleshooting.
+
+All project information, overview, research questions,  significance, and initial product descriptions were written by the author.
+
+**Visualizations and Styles**: A simple style sheet was adapted to display the information. All text was serif with titles centered and paragraphs left-aligned. 

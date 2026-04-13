@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Your Story</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label, textarea, input, select {
+            display: block;
+            width: 100%;
+            margin-bottom: 12px;
+        }
+        input[type="submit"] {
+            width: auto;
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Submit Your Story</h1>
+    <form action="#" method="post">
+        <label for="product name">Product Name:</label>
+        <input type="text" id="product name" name="product name" required>
+
+        <label for="manufacturer">Product Manufacturer:</label>
+        <input type="text" id="manufacturer" name="manufacturer" required>
+
+        <label for="title">Story Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="">Select a category</option>
+            <option value="music">Music</option>
+            <option value="film">Film</option>
+            <option value="art">Art</option>
+            <option value="literature">Literature</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="story">Your Story:</label>
+        <textarea id="story" name="story" rows="6" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
