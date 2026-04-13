@@ -1,3 +1,20 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* space between links */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
 /* -----------------------------------------------
    HIST 501D Demo Site
    Minimal stylesheet — clarity over novelty

@@ -24,12 +24,14 @@
 <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="findings.html">Findings</a></li>
     <li><a href="planning.html">Planning</a></li>
-    <li><a href="sustainability.html">Sustainability</a></li>
+    <li><a href="findings.html">Findings</a></li>
     <li><a href="addyourstory.html">Add Your Story</a></li>
+    <li><a href="sustainability.html">Sustainability</a></li>
   </ul>
 </nav>
+
+<p>Please use the below form to add your story to the list! If you do not know the details of any of the fields, please use "N/A". If you do not know the year, please use "9999".</p>
     <form action="#" method="post">
         <label for="product name">Product Name:</label>
         <input type="text" id="product name" name="product name" required>
@@ -37,26 +39,45 @@
         <label for="manufacturer">Product Manufacturer:</label>
         <input type="text" id="manufacturer" name="manufacturer" required>
 
-        <label for="title">Story Title:</label>
-        <input type="text" id="title" name="title" required>
+        <label for="product type">Product Type:</label>
+        <select id="product type" name="product type">
+            <option value="">Select a product type</option>
+            <option value="boardgame">Board Game</option>
+            <option value="game">Game</option>
+            <option value="books">Books</option>
+            <option value="collectibles">Collectibles</option>
+            <option value="clubs">Clubs</option>
+            <option value="decor">Decor</option>
+        </select>
 
-        <label for="location">Location:</label>
-        <input type="text" id="location" name="location">
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year" placeholder="YYYY">
 
-        <label for="category">Category:</label>
-        <select id="category" name="category">
-            <option value="">Select a category</option>
-            <option value="music">Music</option>
-            <option value="film">Film</option>
-            <option value="art">Art</option>
-            <option value="literature">Literature</option>
-            <option value="other">Other</option>
+        <label for="historical type">Type of History:</label>
+        <select id="historical type" name="historical type" required>
+            <option value="">Select a history type</option>
+            <option value="event">Event</option>
+            <option value="figure">Figure</option>
+            <option value="ideology">Ideology</option>
         </select>
 
         <label for="story">Your Story:</label>
         <textarea id="story" name="story" rows="6" required></textarea>
 
+        <label for="type name">Historical Name:</label>
+        <input type="text" id="type name" name="type name" required>
+
+        <label for="packaging text">Packaging Text (Please type the text exactly as it appears on the packaging):</label>
+        <input type="text" id="packaging text" name="packaging text" required>
+
+        <label for="packaging description">Packaging Description (Please describe the packaging as it appears focused on colors, shapes, and artwork.):</label>
+        <input type="text" id="packaging description" name="packaging description" required>
+
+        <label for="your story">Share your story or memory of this Product:</label>
+        <input type="text" id="your story" name="your story" required>
+
         <input type="submit" value="Submit">
     </form>
+    <p>Please note this form is NOT live.</p>
 </body>
 </html>
