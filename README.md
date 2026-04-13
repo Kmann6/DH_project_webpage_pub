@@ -29,6 +29,12 @@ The categories were chosen to record copyright and production information about 
 **packaging_text**: is a freeform value and records the text on the packaging exactly as it appears. Case and punctuation will be removed during cleaning. 
 **packaging_description**: is a freeform value that describes the colors and images that appear on the packaging with basic descriptive language. This category is intended to retain a general idea of the imagery and is not intended to accurately record exact dimensions or colors. 
 
+## Notice on Methodology for sample products
+The product information was gathered from game information pages and image archives availble on boardgamegeek.com. All information was verified by archival or copyright records and comparative images were sonsulted for packaging text and description. 
+
+## Notice on Methodology for data cleaning
+A Jupyter Notebook was used to clean the dataset. Data was not substainally altered, but used to standardize case, remove punctuation, and ensure dates are recording correctly as integars.
+
 ## Add Your Story Page
 **This page is not active**
 
@@ -37,5 +43,7 @@ The categories were chosen to record copyright and production information about 
 **AI Use Notice**: The author of these pages used Chat GPT Agent 4.1 in writing and correctinig code for the dataset and image display pages. Addiitonal AI usage was critical in error troubleshooting.
 
 All project information, overview, research questions,  significance, and initial product descriptions were written by the author.
+
+Author's sustainability notices were self-drafted and edited for correct terms and verbiage by AI Agent.
 
 **Visualizations and Styles**: A simple style sheet was adapted to display the information. All text was serif with titles centered and paragraphs left-aligned. 
