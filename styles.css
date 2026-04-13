@@ -52,10 +52,10 @@ figcaption {
 
 
 body {
-  font-family: Georgia, serif;
+  font-family: 'Lexend',Georgia, serif;
   line-height: 1.7;
   margin: 0.5in;
-  color: #1f1f1f;
+  color: #000080;
   background: #f7f4ed;
 }
 
@@ -63,7 +63,7 @@ body {
   margin: 1.5in;
   font-family: Georgia, serif;
   line-height: 1.7;
-  color: #1f1f1f;
+  color: #000080;
   background: #f7f4ed;
 }
 
