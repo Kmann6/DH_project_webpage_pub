@@ -47,3 +47,6 @@ All project information, overview, research questions,  significance, and initia
 Author's sustainability notices were self-drafted and edited for correct terms and verbiage by AI Agent.
 
 **Visualizations and Styles**: A simple style sheet was adapted to display the information. All text was serif with titles centered and paragraphs left-aligned. 
+
+## Accessibility Test
+Each webpage was tested with WAVE, the web accessibility evaluation tool with an AIM Score of 10/10 with no errors and some issues noted for redundant captioning.
