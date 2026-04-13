@@ -27,6 +27,11 @@ nav a {
 .index-photo {
     width: 200px;
     height: auto;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .planning-img {
