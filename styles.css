@@ -15,19 +15,30 @@ nav a {
   color: #333;
   font-weight: bold;
 }
+
+.index-photo {
+    width: 350px;
+    height: auto;
+}
+
 /* -----------------------------------------------
    HIST 501D Demo Site
    Minimal stylesheet — clarity over novelty
 ----------------------------------------------- */
 
-body {
-    margin: 2in;
-}
 
 body {
   font-family: Georgia, serif;
   line-height: 1.7;
   margin: 0;
+  color: #1f1f1f;
+  background: #f7f4ed;
+}
+
+body {
+  margin: 2in;
+  font-family: Georgia, serif;
+  line-height: 1.7;
   color: #1f1f1f;
   background: #f7f4ed;
 }
