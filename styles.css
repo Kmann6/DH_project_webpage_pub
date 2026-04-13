@@ -88,10 +88,7 @@ header h1 {
 }
 
 nav {
-    text-align: center;
-}
-
-nav {
+  text-align: center;
   font-family: sans-serif;
   font-size: 0.95rem;
 }
