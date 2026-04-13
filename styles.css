@@ -4,6 +4,7 @@ nav ul {
   margin: 0;
   display: flex;
   gap: 30px; /* space between links */
+  justify-content: center;
 }
 
 nav li {
