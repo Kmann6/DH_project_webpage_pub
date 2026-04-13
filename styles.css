@@ -3,7 +3,7 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 20px; /* space between links */
+  gap: 30px; /* space between links */
 }
 
 nav li {
@@ -16,9 +16,25 @@ nav a {
   font-weight: bold;
 }
 
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* space between images */
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .index-photo {
     width: 200px;
     height: auto;
+}
+
+.planning-img {
+    width: 375px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 0 8px 0;
 }
 
 /* -----------------------------------------------
@@ -30,21 +46,21 @@ nav a {
 body {
   font-family: Georgia, serif;
   line-height: 1.7;
-  margin: 0;
+  margin: 0.5in;
   color: #1f1f1f;
   background: #f7f4ed;
 }
 
 body {
-  margin: 2in;
+  margin: 1.5in;
   font-family: Georgia, serif;
   line-height: 1.7;
   color: #1f1f1f;
   background: #f7f4ed;
 }
 
-    h1, h2, h3, h4, h5, h6 {
-    text-align: center;
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
 }
 
 header, main, footer {
