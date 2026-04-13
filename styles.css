@@ -25,9 +25,11 @@ nav a {
 }
 
 .index-photo {
-    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px; /* If your original was 200px, 25% larger is 250px */
     height: auto;
-    justify-content: center;
 }
 
 figcaption {
